@@ -1,7 +1,7 @@
 import { config } from 'dotenv';
 config();
 
-import { Configuration, OpenAiApi } from 'openai';
+import { Configuration, OpenAIApi } from 'openai';
 
 const openai = new OpenAIApi(
   new Configuration({
